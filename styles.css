@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(10, 31, 29);
+}
+h1 {
+    color: rgb(67, 102, 133);
+    height: auto;
+}
+h1:hover {
+    offset-position: 25px;
+}
