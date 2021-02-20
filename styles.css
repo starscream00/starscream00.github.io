@@ -1,10 +1,30 @@
-body {
-    background-color: rgb(10, 31, 29);
+#anim {
+    animation-name: rainbow;
+    animation-duration: 20s;
+}
+@keyframes rainbow {
+    0% {
+        background-color: rgb(79, 79, 114);
+    }
+    20% {
+        background-color: rgb(163, 47, 47);
+    }
+    40% {
+        background-color: rgb(60, 216, 60);
+    }
+    60% {
+        background-color: rgb(139, 67, 79);
+    }
+    80% {
+        background-color: rgb(204, 255, 101);
+    }
+    100% {
+        background-color: bisque;
+    }
 }
 h1 {
     color: rgb(67, 102, 133);
+    text-align: center;
+    font-size: 50px;
     height: auto;
-}
-h1:hover {
-    offset-position: 25px;
 }
